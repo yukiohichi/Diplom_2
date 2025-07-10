@@ -1,7 +1,7 @@
 import allure
 import pytest
 
-from api.methods.orders import OrderMethods
+from methods_api.orders import OrderMethods
 
 @allure.epic('Список заказов пользователя')
 class TestOrderUsers(OrderMethods):

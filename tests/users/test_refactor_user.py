@@ -1,7 +1,7 @@
 import pytest
 import allure
 
-from api.methods.users import UsersMethods
+from methods_api.users import UsersMethods
 
 @allure.epic('Редактирование пользовательских данных')
 class TestRefactorUser(UsersMethods):

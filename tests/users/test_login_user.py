@@ -1,7 +1,7 @@
 import pytest
 import allure
 
-from api.methods.users import UsersMethods
+from methods_api.users import UsersMethods
 from data.users import base_login_user
 
 

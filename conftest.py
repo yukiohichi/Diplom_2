@@ -1,6 +1,7 @@
 import pytest
+import requests
 
-from api.methods.users import UsersMethods
+from methods_api.users import UsersMethods
 from helpers import get_random_user
 
 @pytest.fixture()
